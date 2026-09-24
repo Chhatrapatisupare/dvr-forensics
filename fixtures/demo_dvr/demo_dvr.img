@@ -1,0 +1,40 @@
+=== DEMOSECURE FORENSIC FIXTURE ===
+{
+  "magic": "DEMOSECURE-DVR-IMAGE",
+  "vendor": "DemoSecure",
+  "model": "DS-NVR-8000",
+  "firmware": "1.4.2-demo",
+  "timezone": "UTC",
+  "filesystem": "DemoFS",
+  "channels": 8,
+  "recordings": [
+    {
+      "id": "REC-001",
+      "camera": "CAM-01",
+      "channel": 1,
+      "start_time": "2026-09-20T09:00:00Z",
+      "end_time": "2026-09-20T09:05:00Z",
+      "status": "normal",
+      "format": "MP4"
+    },
+    {
+      "id": "REC-002",
+      "camera": "CAM-02",
+      "channel": 2,
+      "start_time": "2026-09-20T09:10:00Z",
+      "end_time": "2026-09-20T09:15:00Z",
+      "status": "normal",
+      "format": "MP4"
+    },
+    {
+      "id": "REC-003",
+      "camera": "CAM-01",
+      "channel": 1,
+      "start_time": "2026-09-20T09:20:00Z",
+      "end_time": "2026-09-20T09:25:00Z",
+      "status": "recovered",
+      "format": "MP4"
+    }
+  ]
+}
+=== END DEMOSECURE FIXTURE ===
